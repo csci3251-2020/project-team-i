@@ -1,6 +1,12 @@
-# This team hasn't started yet...
+# Introduction
+In this project, we will
 
-Check back later!
+* Create Issues and Project Board
+* Set up readme.md
+* Show our team to the Internet
+* Write C code
+* Get a status badge and Promote our repo
 
-**Please read `tasks.md` to start your work.**
- 
+# Code
+
+# Contributors

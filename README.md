@@ -1,6 +1,6 @@
-# This team hasn't started yet...
+<h1> Contributors </h1>
 
-Check back later!
-
-**Please read `tasks.md` to start your work.**
- 
+{% for stu in site.stu %}
+  <img src = "{{ https://github.com/CKHRyan.png?size=50str.image }}">@{{ stu.user }}({{ stu.name }}) <br>
+  <p>{{ stu.content | markdownify }}</p>
+{% endfor %}

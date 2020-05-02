@@ -13,8 +13,10 @@ In this project, we will
 # Contributors
  
 {% for stu in site.stu %}
-  <p><img src = "{{ stu.image }}">@{{ stu.user }}({{ stu.name }})</p>
-  <p>{{ stu.content | markdownify }}</p>
+<p>
+* <img src = "{{ stu.image }}">@{{ stu.user }}({{ stu.name }})
+  * {{ stu.content | markdownify }}
+</p>
 {% endfor %}
 
 # Newcomer's Guide

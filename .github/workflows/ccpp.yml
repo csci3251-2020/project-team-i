@@ -2,19 +2,13 @@ name: C/C++ CI
 #events to run the CI 
 on:
   push:
-    branches:
-    - master
-    - remotes/origin/Tom-Leung-1
+    branches: [ master ]
   pull_request:
-    branches:  
-    - master
-    - remotes/origin/Tom-Leung-1
+    branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: run code.c

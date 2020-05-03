@@ -11,13 +11,15 @@ In this project, we will
 # Code
 
 # Contributors
- 
+<ul>
 {% for stu in site.stu %}
-<p>
-* <img src = "{{ stu.image }}">@{{ stu.user }}({{ stu.name }})
-  * {{ stu.content | markdownify }}
-</p>
+  <li><img src = "{{ stu.image }}" height="50" width="50"/>@{{ stu.user }}({{ stu.name }})
+      <ul>
+          <li><p>{{ stu.content | markdownify }}</p></li>
+      </ul>
+  </li>
 {% endfor %}
+</ul>
 
 # Newcomer's Guide
 1) Create your 1155xxxxxx.md file under \_stu folder (just follow others' format should be okay)

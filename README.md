@@ -9,7 +9,9 @@ In this project, we will
 * Get a status badge and Promote our repo
 
 # Code
-
+```c
+{% include_relative code.c %}
+```
 # Contributors
 <ul>
 {% for stu in site.stu %}

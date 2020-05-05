@@ -12,6 +12,7 @@ In this project, we will
 ```c
 {% include_relative code.c %}
 ```
+![](https://github.com/csci3251-2020/project-team-i/workflows/%20C/C++%20CI/badge.svg)
 # Contributors
 <ul>
 {% for stu in site.stu %}

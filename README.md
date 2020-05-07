@@ -30,3 +30,5 @@ In this project, we will
 3) Read the In-progress issues and pick one to work on. Remember to assign yourself to the issue
 4) Frequently check our pull requests and approve them in order to make progress
 5) Let's pass this course.
+
+Last updated: {{ site.time }}
